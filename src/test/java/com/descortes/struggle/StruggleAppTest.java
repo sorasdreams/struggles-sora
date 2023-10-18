@@ -38,9 +38,9 @@ public class StruggleAppTest {
     }
 
     @Test
-    public void test06_VampiroConCuchilloVsLoboConManoEnLluviaGana1() {
+    public void test06_VampiroConCuchilloVsLoboConManoEnLluviaEmpate() {
         String result = StruggleApp.run("lluvia", "vampiro", "cuchillo", "lobo", "mano");
-        assertEquals("Resultado: gana 1", result);
+        assertEquals("Resultado: empate", result);
     }
 
     @Test
